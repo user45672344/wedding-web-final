@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.countdown-title{  
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 0.6rem;
+    color: #737373
+}
