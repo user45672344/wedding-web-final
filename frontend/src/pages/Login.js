@@ -15,13 +15,18 @@ const Login = () => {
         e.preventDefault();
       
         try {
-          const res = await fetch('/api/login', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ password }),
-          });
+            const isProd = process.env.NODE_ENV === 'production';
+            const apiURL = isProd 
+              ? 'https://wedding-web-final-nf7q.vercel.app/api/login' 
+              : '/api/login'; // local fallback
+            
+            const res = await fetch(apiURL, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ password }),
+            });
       
           if (!res.ok) {
             throw new Error('Invalid password');

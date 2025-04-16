@@ -1,4 +1,5 @@
-const jwt = require('jsonwebtoken');
+// api/verify.js
+import jwt from 'jsonwebtoken';
 
 const JWT_SECRET = process.env.JWT_SECRET;
 
