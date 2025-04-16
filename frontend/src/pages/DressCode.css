@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.dress-code-wrapper {
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+    overflow: hidden;
+}
+
+.dress-code-wrapper::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/public/frenchRivJPG.JPG') center center / cover no-repeat;
+    opacity: 0.4;
+    z-index: -1;
+  }
+
+  
+.dress-code-container {
+    max-width: 1200px;
+    margin-top: 0 auto;
+    background: rgba(255, 255, 255, 0.95); /* subtle transparency */
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.dress-code-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    color: #777;
+    margin-top: -0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dress-code-container h2 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .dress-code-container h4 {
+    font-family: 'Georgia', serif;
+    font-size: 1.75rem;
+    color: #504f4f;
+    margin-top: 1rem;
+  }
+  
+  .dress-code-container h5 {
+    font-family: 'Georgia', serif;
+    font-size: 1.45rem;
+    color:#477ab1;
+    margin-top: 1rem;
+  }
+  
+  .dress-code-container .lead {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .dress-code-container img {
+    max-height: 300px;
+    margin-top: 1rem;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .dress-code-container img:hover {
+    transform: scale(1.02);
+  }
+  
+  .dress-code-container ul {
+    padding-left: 1rem;
+    list-style-type: disc;
+  }
+  
+  .dress-code-container a {
+    color: #477ab1;
+    text-decoration: none;
+  }
+  
+  .dress-code-container a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border-top: 1px solid #ccc;
+  }
+
+  .list-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .custom-list {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  

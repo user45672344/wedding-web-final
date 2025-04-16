@@ -1,0 +1,65 @@
+/* File: src/pages/Registry.css */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Helvetica+Neue:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.registry-wrapper {
+  background: url('/public/frenchRivJPG.JPG') center center / cover no-repeat fixed;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  z-index: 1;
+}
+
+.registry-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+
+.registry-container {
+  background: rgba(255, 255, 255, 0.94);
+  max-width: 900px;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.registry-title {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #777
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.btn-outline-dark {
+  min-width: 220px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #6c5ce7;
+  color: white;
+  border-color: #6c5ce7;
+}
+
+.venmo-icon {
+  width: auto;
+  height: 125px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

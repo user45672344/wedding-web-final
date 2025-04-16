@@ -1,0 +1,83 @@
+/* File: src/pages/Travel.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Helvetica+Neue:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+.travel-wrapper {
+  background: url('/public/frenchRivJPG.JPG') center center / cover no-repeat fixed;
+  position: relative;
+  min-height: 100vh;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #333;
+  z-index: 1;
+}
+
+.travel-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: -1;
+}
+
+.travel-container {
+  background: rgba(255, 255, 255, 0.94);
+  padding: 4rem;
+  max-width: 60rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.travel-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.75rem;
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.section-block {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.section-block h4 {
+  font-size: 1.5rem;
+  color: #444;
+  margin-bottom: 0.75rem;
+}
+
+.section-block p,
+.section-block li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.section-block ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+iframe {
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.wedding-location-block {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .wedding-location-text {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .wedding-location-image {
+    flex: 1;
+    min-width: 280px;
+    max-width: 500px;
+  }
+  
