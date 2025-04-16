@@ -10,7 +10,7 @@ import Registry from './pages/Registry';
 import Events from './pages/Events';
 import DressCode from './pages/DressCode';
 import RSVP from './pages/RSVP';
-import Login from './pages/Login';
+//import Login from './pages/Login';
 import PrivateRoute from './components/PrivateRoute';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Login />} />
+        <Route path="/" element={<Home />} />
         <Route
           path="/home"
           element={
