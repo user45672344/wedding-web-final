@@ -17,7 +17,7 @@ const Login = () => {
         try {
             const isProd = process.env.NODE_ENV === 'production';
             const apiURL = isProd 
-              ? 'https://wedding-web-final-v234.vercel.app/api/login' 
+              ? 'https://wedding-web-final-nf7q.vercel.app/api/login' 
               : '/api/login'; // local fallback
             
             const res = await fetch(apiURL, {
