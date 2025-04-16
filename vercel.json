@@ -1,8 +1,8 @@
 {
     "build": {
       "env": {
-        "JWT_SECRET": "@jwt_secret",
-        "ADMIN_PASSWORD_HASH": "@admin_password_hash"
+        "JWT_SECRET": "rockyarchie",
+        "ADMIN_PASSWORD_HASH": "$2b$10$Alc9BeGkG6SOYXvo35lfP.V/tAYGO71T0Lap0rAzsCV.AnuxmtJn."
       }
     }
   }
