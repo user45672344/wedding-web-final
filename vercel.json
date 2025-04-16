@@ -1,0 +1,9 @@
+{
+    "build": {
+      "env": {
+        "JWT_SECRET": "@jwt_secret",
+        "ADMIN_PASSWORD_HASH": "@admin_password_hash"
+      }
+    }
+  }
+  
