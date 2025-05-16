@@ -11,7 +11,7 @@ import Events from './pages/Events';
 import DressCode from './pages/DressCode';
 import RSVP from './pages/RSVP';
 //import Login from './pages/Login';
-import PrivateRoute from './components/PrivateRoute';
+
 
 function App() {
   return (
@@ -19,12 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route
-          path="/home"
-          element={
-              <Home />
-          }
-        />
+  
         <Route
           path="/gallery"
           element={
