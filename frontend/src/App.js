@@ -22,57 +22,43 @@ function App() {
         <Route
           path="/home"
           element={
-            <PrivateRoute>
               <Home />
-            </PrivateRoute>
           }
         />
         <Route
           path="/gallery"
           element={
-            <PrivateRoute>
               <Gallery />
-            </PrivateRoute>
           }
         />
         <Route
           path="/travel"
           element={
-            <PrivateRoute>
               <Travel />
-            </PrivateRoute>
           }
         />
         <Route
           path="/registry"
           element={
-            <PrivateRoute>
               <Registry />
-            </PrivateRoute>
           }
         />
         <Route
           path="/events"
           element={
-            <PrivateRoute>
               <Events />
-            </PrivateRoute>
           }
         />
         <Route
           path="/dresscode"
           element={
-            <PrivateRoute>
               <DressCode />
-            </PrivateRoute>
           }
         />
         <Route
           path="/rsvp"
           element={
-            <PrivateRoute>
               <RSVP />
-            </PrivateRoute>
           }
         />
 
