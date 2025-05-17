@@ -37,7 +37,7 @@ const DressCode = () => {
                 alt="Beach Formal Dress Example"
                 className="img-fluid rounded shadow"
               />
-              <p className="mt-2">Bold colors or patterns are welcome.!.</p>
+              <p className="mt-2">Bold colors or patterns are welcome.</p>
             </div>
           </div>
 
