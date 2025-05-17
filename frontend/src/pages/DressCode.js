@@ -37,7 +37,7 @@ const DressCode = () => {
                 alt="Beach Formal Dress Example"
                 className="img-fluid rounded shadow"
               />
-              <p className="mt-2">Flowy and festive is always welcome.</p>
+    
             </div>
           </div>
 
@@ -62,7 +62,7 @@ const DressCode = () => {
         <div className="mb-5">
           <h4 className="mb-3">Welcome Party</h4>
           <p className="lead">
-            Join us for a <strong>White Party</strong> on Friday, 02/20/20256! Please wear all-white or ivory outfits — breezy white linens, white dresses, or classic ivory separates are all welcome.
+            Join us for a <strong>White Party</strong> on Friday, 02/20/2026! Please wear all-white or ivory outfits — breezy white linens, white dresses, or classic ivory separates are all welcome.
           </p>
        
           <div className="row mt-4 justify-content-center ">
