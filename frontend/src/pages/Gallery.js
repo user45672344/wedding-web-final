@@ -13,7 +13,7 @@ const Gallery = () => {
         <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/roof1.jpg"
+              src="/roof1.JPG"
               alt="Gallery Image 1"
             />
           </Carousel.Item>
@@ -48,49 +48,49 @@ const Gallery = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img7.jPEG"
+              src="/img7.JPEG"
               alt="Gallery Image 6"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img8.jPEG"
+              src="/img8.JPEG"
               alt="Gallery Image 7"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img9.jPEG"
+              src="/img9.JPEG"
               alt="Gallery Image 8"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img10.jPEG"
+              src="/img10.JPEG"
               alt="Gallery Image 9"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img11.jPEG"
+              src="/img11.JPEG"
               alt="Gallery Image 10"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img12.jPEG"
+              src="/img12.JPEG"
               alt="Gallery Image 11"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/img13.jPEG"
+              src="/img13.JPEG"
               alt="Gallery Image 12"
             />
           </Carousel.Item>
