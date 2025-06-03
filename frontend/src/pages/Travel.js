@@ -44,7 +44,7 @@ const Travel = () => {
             <li><strong>Holiday Inn Express & Suites</strong> – Budget friendly, 15 minutes away</li>
             <li><strong>Margaritaville Beach Hotel</strong> – Great for relaxing by the ocean</li>
             <br/>
-            <li><strong>We are currently working on a room block with Hitlon </strong> – Will update as soon as it complete</li>
+            <li><strong>We are currently working on a room block with Hitlon </strong> – Will update as soon as it's complete</li>
           </ul>
         </div>
 
