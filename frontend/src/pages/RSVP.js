@@ -17,6 +17,7 @@ const guestMap = {
   'Nick Jones': ['Heidi', 'Ramsey', 'Simmons'],
   'Alicia Romano': ['Sal Ramono', 'Jake Ramono'],
   'Sal Romano': ['Alicia Romano', 'Jake Ramono'],
+  'Jake Romano': [], 
   'Luke Ramono': ['Guest'],
   'Jessica Ouellette': ['Blake Resnick'],
   'Geoff Ouellette': ['Fawn Ouellette'],
