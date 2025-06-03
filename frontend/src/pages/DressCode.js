@@ -7,6 +7,8 @@ const DressCode = () => {
   return (
     <section className="text-center py-5 dress-code-wrapper">
     <h2 className="dress-code-title">Dress Code</h2>
+    <h2 className="dress-code-title">Page Coming Soon</h2> 
+    /*
       <div className="container dress-code-container">
         <div className="mb-2">
           <h4 className="mb-3">Wedding Day</h4>
@@ -106,6 +108,7 @@ const DressCode = () => {
           </div>
         </div>
       </div>
+      */
     </section>
   );
 };
